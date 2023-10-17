@@ -23,6 +23,7 @@ body {
     --black-gradient,
     radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%)
   );
+  
 }
 .star-circle {
   border-radius: 50%;
@@ -86,6 +87,32 @@ body {
   height: 45px;
   cursor: pointer;
 }
+.thank-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 24px 38px 24px;
+  display: none;
+}
+.result{
+  background-color: #262E38;
+  border-radius: 22.5px;
+  height: 32px;
+  margin-top: 24px;
+  width: 190px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #fc7614;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thank-desc{
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .main-container {
     padding: 32px 39px 32px 32px;
@@ -104,5 +131,8 @@ body {
   .point-container button {
     width: 51px;
     height: 51px;
+  }
+  .thank-cont{
+    padding: 51px 40px 51px 32px;
   }
 }
