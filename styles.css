@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Inter:wght@400;700&family=Lexend+Deca&family=Open+Sans&family=Outfit:wght@500;700&family=Overpass:wght@400;700&family=Poppins:wght@500;700&family=Raleway:wght@400;700&family=Roboto+Condensed:wght@700&family=Space+Mono:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131518;
+  font-family: "Overpass", sans-serif;
+  padding: 24px;
+}
+.main-container {
+  border-radius: 15px;
+  max-width: 412px;
+  padding: 24px 24px 32px 24px;
+  background: var(
+    --black-gradient,
+    radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%)
+  );
+}
+.star-circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #262e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+.description {
+  color: #969fad;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.point-container {
+  display: flex;
+  margin-top: 24px;
+  justify-content: space-between;
+}
+.point-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #262e38;
+  color: #7c8798;
+  cursor: pointer;
+  border: none;
+}
+.point-container button:hover{
+    background-color: #FC7614;
+    color: white;
+
+}
+.point-container button:focus{
+    background-color: #7C8798;
+    color: white;
+
+}
+.submit-btn {
+  margin-top: 36px;
+  border: none;
+  border-radius: 22.5px;
+  background-color: #fc7614;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.867px;
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .main-container {
+    padding: 32px 39px 32px 32px;
+  }
+  .star-circle {
+    width: 48px;
+    height: 48px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .description {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .point-container button {
+    width: 51px;
+    height: 51px;
+  }
+}
