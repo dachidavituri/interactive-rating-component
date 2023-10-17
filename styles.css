@@ -87,20 +87,24 @@ body {
   height: 45px;
   cursor: pointer;
 }
+.submit-btn:hover{
+  background-color: white;
+  color: #fc7614;
+}
 .thank-cont{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 40px 24px 38px 24px;
-  display: none;
+  
 }
 .result{
   background-color: #262E38;
   border-radius: 22.5px;
   height: 32px;
   margin-top: 24px;
-  width: 190px;
+  width: 200px;
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -112,6 +116,13 @@ body {
 .thank-desc{
   text-align: center;
 }
+.display-change{
+  display: none;
+}
+.result-point{
+  margin: 3px;
+}
+
 
 @media screen and (min-width: 768px) {
   .main-container {
